@@ -293,10 +293,13 @@ client.on('message', async msg => {
     }
 
     //---------------------------- ROTINAS
-    if (msg.body== 'PING2') {
+    if (msg.body.toUpperCase()== 'PING2') {
         // Send a new message as a reply to the current one
         msg.reply('pong');
-    
+
+    } else if (msg.body.toUpperCase() == 'LINK') {
+            msg.reply('https://www.dropbox.com/s/odlqxftgbthne0h/BotWhatsApp.zip?dl=0');
+
     } else if (msg.body == '!mediainfo' && msg.hasMedia) {
         const attachmentData = await msg.downloadMedia();
         msg.reply(`
@@ -305,7 +308,6 @@ client.on('message', async msg => {
             Filename: ${attachmentData.filename}
             Data (length): ${attachmentData.data.length}
         `);
-
     //--------------------------- ENVIA LOGO
     } else if (msg.body.toUpperCase() == 'LOGO') {
         const { MessageMedia } = require('whatsapp-web.js');

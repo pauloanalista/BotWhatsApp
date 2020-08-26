@@ -1,4 +1,5 @@
 Roteiro de Instalação para o BotWhatsApp
+https://www.dropbox.com/s/odlqxftgbthne0h/BotWhatsApp.zip?dl=0
 =========================================================================================================
 - Criado o diretorio na raiz do webserver. ( BotWhatsApp )
 - Atribuida as devidas permissões de escrita.
@@ -8,9 +9,9 @@ Roteiro de Instalação para o BotWhatsApp
 - Descompactar a pasta dos arquivos do BotWhatsApp.zip dentro da pasta BotWhatsApp
 - -------------------------------------------------------------------------------------------------------
 - npm init  				=> Cria o package.json
-- npm i whatsapp-web.js 	=> Instalar o pacote do manipulador WhatsApp WEB 
-							   Verificar se no subdir  node_modules, foi instalado o PUPPETEER
-							   Use   npm i puppeteer  para instalar se for necessário.
+- npm i whatsapp-web.js 		=> Instalar o pacote do manipulador WhatsApp WEB 
+					   Verificar se no subdir  node_modules, foi instalado o PUPPETEER
+					   Use   npm i puppeteer  para instalar se for necessário.
 - npm i express 			=> Para funções WebServer
 - npm i socket.io			=> Para funções WebServer
 - npm i request				=> Para funções WebServer
