@@ -1,0 +1,40 @@
+Roteiro de Instalação para o BotWhatsApp
+=========================================================================================================
+- Criado o diretorio na raiz do webserver. ( BotWhatsApp )
+- Atribuida as devidas permissões de escrita.
+- -------------------------------------------------------------------------------------------------------
+- Instalar NodeJS => Requer a Versão 14.8
+- Instalar o gerenciados de pacotes NPM  
+- Descompactar a pasta dos arquivos do BotWhatsApp.zip dentro da pasta BotWhatsApp
+- -------------------------------------------------------------------------------------------------------
+- npm init  				=> Cria o package.json
+- npm i whatsapp-web.js 	=> Instalar o pacote do manipulador WhatsApp WEB 
+							   Verificar se no subdir  node_modules, foi instalado o PUPPETEER
+							   Use   npm i puppeteer  para instalar se for necessário.
+- npm i express 			=> Para funções WebServer
+- npm i socket.io			=> Para funções WebServer
+- npm i request				=> Para funções WebServer
+
+- -------------------------------------------------------------------------------------------------------
+- Rodar no tela do terminal (DOS):    node app1.js
+
+- A tela do Chrome abrirá com o QRcode para entrar no WhatsApp
+  Se você fechar esta tela o robo para de funcionar.  ( NUNCA FECHAR )
+
+- Scanear o QRcode com o celular que será o ROBO ( 11 9 xxxx-xxxx )
+
+- Teste Basico -  com outro celular enviar um texto simples para o numero do celular do BotWhatsApp.
+	O node no terminal deve mostrar os dados da mensagem recebida 
+
+- Teste o envio dos anexos de testes que estão na pasta do WebServer = ( logo.png , teste.pdf, teste.mp3 )
+  Enviar a mensagem Logo ou Mp3 ou Pdf para o celular do BotWhatsApp.
+
+- Teste Envio Imagens - Enviar um arquivo de imagem para o celular do BotWhatsApp.  
+						O arquivo deve ser gravado com o ID do envio na pasta -  BotWhatsApp\arqrecebidos
+						No Telefone de quem enviou, aparece a notificação com os dados recebidos.
+						
+- Teste de Envio para API - Envie a mensagem Mm para o celular do BotWhatsApp.	
+
+- Teste o envio via pagina web - http://localhost/BotWhatsApp/index.php
+
+

@@ -1,0 +1,1 @@
+Pasta que recebe os arquivos convertidos de base64 provenientes do WHATSAPP WEB JS

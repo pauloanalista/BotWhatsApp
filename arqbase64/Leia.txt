@@ -1,0 +1,2 @@
+Esta Base fica os arquivos convertidos de Base64 para seu formato original.
+Testando assim a string a ser enviada para o NODEJs
