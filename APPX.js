@@ -347,7 +347,7 @@ client.on('message', async msg => {
         var request = require('request');
         var options = {
             'method': 'POST',
-            'url': 'https://webapp.moshe.com.br/webhook/ClickSign/Eventos/v1',
+            'url': 'https://webapp.moshe.com.br/Api/WebHookMosheTeste/v1',
             'headers': {
                 'Content-Type': 'application/json',
                 'Accept': 'application/json'
