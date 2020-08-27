@@ -292,7 +292,7 @@ client.on('message', async msg => {
         `);
     }
 
-    //---------------------------- ROTINAS
+    //---------------------------- CHAMADAS DE RETORNO
     if (msg.body.toUpperCase()== 'PING2') {
         // Send a new message as a reply to the current one
         msg.reply('pong');
@@ -300,6 +300,9 @@ client.on('message', async msg => {
     } else if (msg.body.toUpperCase() == 'LINK') {
             msg.reply('https://www.dropbox.com/s/odlqxftgbthne0h/BotWhatsApp.zip?dl=0');
 
+    } else if (msg.body.toUpperCase() == 'GIT') {
+            msg.reply('https://github.com/Kaldiris/BotWhatsApp');
+    
     } else if (msg.body == '!mediainfo' && msg.hasMedia) {
         const attachmentData = await msg.downloadMedia();
         msg.reply(`
@@ -331,9 +334,10 @@ client.on('message', async msg => {
         const { MessageMedia } = require('whatsapp-web.js');
         const media = MessageMedia.fromFilePath('teste.mp3');
         let chat = await msg.getChat();
-        client.sendMessage(msg.from,"Conforme Solicitado, Segue o MP3");
+        chat.sendStateRecording();
+        // setTimeout(() => {  console.log("Gravando..."); }, 2000);
         chat.sendMessage(media);    
-
+        // client.sendMessage(msg.from,"Conforme Solicitado, Segue o MP3");
     //--------------------------- GRAVA NO WEBHOOK    
     }else if (msg.body.toUpperCase() == 'MM') {
         const contact = await msg.getContact();
@@ -369,12 +373,10 @@ client.on('message', async msg => {
         });
     }
 });
-// client.on('message', message => {
-// 	console.log(message.body);
-// });
-// OUTRO MODO DE CHAMAR OS MÉTODOS
+
+// OUTRO MODO/SYNTAXE DE CHAMAR OS MÉTODOS
 client.on('message', message => {
-	if(message.body === 'ping' || message.body ==='PING' || message.body ==='Ping'  ) {
+	if(message.body.toUpperCase()=='PING' ) {
 		message.reply('pong');
 	}
 });
@@ -391,22 +393,21 @@ client.on('message', async message => {
         const user = await message.getContact();
         const contato = user.id.user;
         const date = new Date(Date.now());
-        chat.sendStateTyping();
+       
         
-        message.forward(chatId);
+        chat.sendStateTyping()
+        console.log("Digitando...");
+       
         console.log(date);
+        console.log("Contato...");
         console.log(contato);
-        // company.map((valores) => {
-        //     if (valores.numero == contato) {
-        //       if (date.getHours() < valores.fim) {
-        //         msg.reply(`🤖: Hey *${valores.nome}*, seu turno ainda não acabou!!!`);
-        //       } else {
-        //         msg.reply(`🤖: Bom descanso *${valores.nome}*!`);
-        //       }
-        //     }
+        console.log("User...");
+        console.log(user);
+        console.log("Names...");
+        // message.reply(user.name);
+        // message.reply(user.verifiedName);
     }
 });
-
 
 //============================================================================== OUTRAS FUNÇÕES EM JS
 function isEmptyObject(obj) {
