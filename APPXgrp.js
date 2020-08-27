@@ -23,7 +23,7 @@
 // https://discord.com/channels/698610475432411196/744945758649843734
 // https://waguide.pedroslopez.me/
 // https://developers.google.com/web/tools/puppeteer/get-started
-// https://www.dropbox.com/s/odlqxftgbthne0h/BotWhatsApp.zip?dl=0
+// https://www.dropbox.com/sh/pdouwk8ovxo3hs3/AAAhTxOzcoQF3jT4_9GXSP6oa?dl=0
 // https://github.com/Kaldiris/BotWhatsApp
 //=====================================================================================================================
 //---   PARAMETROS RECEBIDOS LINHA DOS
@@ -308,7 +308,7 @@ client.on('message', async msg =>
             msg.reply('pong');
 
         } else if (msg.body.toUpperCase() == 'LINK') {
-                msg.reply('https://www.dropbox.com/s/odlqxftgbthne0h/BotWhatsApp.zip?dl=0');
+                msg.reply('https://www.dropbox.com/sh/pdouwk8ovxo3hs3/AAAhTxOzcoQF3jT4_9GXSP6oa?dl=0');
 
         } else if (msg.body.toUpperCase() == 'GIT') {
                 msg.reply('https://github.com/Kaldiris/BotWhatsApp');
