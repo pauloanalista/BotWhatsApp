@@ -23,7 +23,8 @@
 // https://discord.com/channels/698610475432411196/744945758649843734
 // https://waguide.pedroslopez.me/
 // https://developers.google.com/web/tools/puppeteer/get-started
-// 
+// https://www.dropbox.com/s/odlqxftgbthne0h/BotWhatsApp.zip?dl=0
+// https://github.com/Kaldiris/BotWhatsApp
 //=====================================================================================================================
 //---   PARAMETROS RECEBIDOS LINHA DOS
 const paramPorta = process.argv.slice(2)
