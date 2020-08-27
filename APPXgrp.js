@@ -25,6 +25,8 @@
 // https://developers.google.com/web/tools/puppeteer/get-started
 // https://www.dropbox.com/sh/pdouwk8ovxo3hs3/AAAhTxOzcoQF3jT4_9GXSP6oa?dl=0
 // https://github.com/Kaldiris/BotWhatsApp
+// https://github.com/lucasfogacadj/API-Chatbot-com-Laravel
+// https://take.net/blog/designers/ui-e-ux-design-para-chatbots-e-interfaces-conversacionais
 //=====================================================================================================================
 //---   PARAMETROS RECEBIDOS LINHA DOS
 const paramPorta = process.argv.slice(2)
