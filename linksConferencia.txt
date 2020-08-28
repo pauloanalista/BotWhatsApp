@@ -1,0 +1,316 @@
+
+
+Eu
+
+// https://www.dropbox.com/sh/pdouwk8ovxo3hs3/AAAhTxOzcoQF3jT4_9GXSP6oa?dl=0
+// https://github.com/Kaldiris/BotWhatsApp
+
+
+
+
+19:38
+
+Eu
+
+https://www.dropbox.com/sh/pdouwk8ovxo3hs3/AAAhTxOzcoQF3jT4_9GXSP6oa?dl=0
+
+
+
+
+19:38
+
+Eu
+
+https://github.com/Kaldiris/BotWhatsApp
+
+
+
+
+19:40
+
+Rodolfo
+
+👏👏👏 estou acompanhando... Mas zerei o microfone aqui....
+
+
+
+
+19:42
+
+Lucas Fogaça
+
+https://github.com/pedroslopez/whatsapp-web.js/blob/master/example.js
+
+
+
+
+19:42
+
+Lucas Fogaça
+
+client.on('message_ack', (msg, ack) => {
+    /*
+        == ACK VALUES ==
+        ACK_ERROR: -1
+        ACK_PENDING: 0
+        ACK_SERVER: 1
+        ACK_DEVICE: 2
+        ACK_READ: 3
+        ACK_PLAYED: 4
+    */
+
+    if(ack == 3) {
+        // The message was read
+    }
+});
+
+
+
+
+20:00
+
+Eu
+
+Fogaça...  Quando der ai para você, compartilha esse lance todo com o Telegram...   Seria bem legal.
+
+
+
+
+20:03
+
+Lucas Fogaça
+
+Claro
+
+
+
+
+20:03
+
+Rodolfo
+
+Tô na área .... Valeu gregão.......
+
+
+
+
+20:04
+
+Lucas Fogaça
+
+https://github.com/lucasfogacadj/ChatBotStadisinho-Telegram-Node.js
+
+
+
+
+20:05
+
+Lucas Fogaça
+
+https://github.com/lucasfogacadj/API-Chatbot-com-Laravel
+
+
+
+
+20:05
+
+Lucas Fogaça
+
+meu tcc, imagina o tipo de codigo, hehe
+
+
+
+
+20:06
+
+Para Lucas Fogaça
+
+Anota ai... :-)    grego@moshe.com.br
+
+
+
+
+20:07
+
+Azure na Prática
+
+Fala pessoal
+
+
+
+
+20:08
+
+Moshe Mauricio Marques
+
+https://www.twilio.com/whatsapp/pricing/br
+
+
+
+
+20:08
+
+Moshe Mauricio Marques
+
+Preços do Twilio
+
+
+
+
+20:14
+
+Ayslan Portela
+
+Gente,  para  interromper o dialogo de voces , vou me despedir por aqui, obrigado a todos , Grego, parabens animal
+
+Boa noite 
+
+
+
+
+20:14
+
+Ayslan Portela
+
+Nao interromper*
+
+
+
+
+20:14
+
+Para Lucas Fogaça
+
+Valeu Ayslan.
+
+
+
+
+20:14
+
+Para Lucas Fogaça
+
+Obrigado !!!!
+
+
+
+
+20:17
+
+Para Lucas Fogaça
+
+<https://www.dropbox.com/sh/pdouwk8ovxo3hs3/AAAhTxOzcoQF3jT4_9GXSP6oa?dl=0>
+
+
+
+
+
+20:17
+
+Para Lucas Fogaça
+
+<https://github.com/Kaldiris/BotWhatsApp>
+
+
+
+
+
+20:18
+
+Rodolfo
+
+Eu TB preciso sair ...... 
+
+Valeu gregão.... Bem legal.
+
+👏👏👏👏
+
+
+
+
+20:19
+
+Para Lucas Fogaça
+
+Valeu Rodolfo
+
+
+
+
+20:20
+
+Lucas Fogaça
+
+https://take.net/blog/designers/ui-e-ux-design-para-chatbots-e-interfaces-conversacionais
+
+
+
+
+20:26
+
+Lucas Fogaça
+
+https://www.whatsender.net/pt/
+
+
+
+
+20:27
+
+Para Lucas Fogaça
+
+grego@moshe.com.br
+
+
+
+
+20:28
+
+Eu
+
+grego@moshe.com.br
+
+
+
+
+20:30
+
+Lucas Fogaça para mim
+
+https://www.whatsender.net/pt/
+Responder em particular
+
+
+
+20:34
+
+Moshe Mauricio Marques
+
+55 11 93407-6746
+
+
+
+
+20:34
+
+Lucas Fogaça
+
+https://developer.ibm.com/br/tutorials/desenvolvendo-chatbots-com-watson-conversation/
+
+
+
+
+20:35
+
+Nilton
+
+nilton@neojoy.com
+
+
+
+
+20:36
+
+Eu
+
+https://github.com/Kaldiris/BotWhatsApp
