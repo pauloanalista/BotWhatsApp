@@ -10,7 +10,7 @@
     "jsonschema": "^1.2.6",
     "qrcode-terminal": "^0.12.0",
     "request": "^2.88.2",
-    "socket.io": "^2.3.0",
+    "socket.io": "^2.4.0",
     "whatsapp-web.js": "^1.8.0"
   },
   "devDependencies": {},
