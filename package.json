@@ -5,7 +5,7 @@
   "main": "APPX.js",
   "dependencies": {
     "express": "^4.17.1",
-    "i": "^0.3.6",
+    "i": "^0.3.7",
     "jnpm": "^0.0.0",
     "jsonschema": "^1.2.6",
     "qrcode-terminal": "^0.12.0",
