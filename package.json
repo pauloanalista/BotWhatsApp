@@ -4,7 +4,7 @@
   "description": "WhastApp BOT",
   "main": "APPX.js",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "i": "^0.3.6",
     "jnpm": "^0.0.0",
     "jsonschema": "^1.2.6",
